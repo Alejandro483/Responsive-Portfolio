@@ -1,0 +1,159 @@
+body {
+    background-image: url("/assets/images/gravel.png");
+     }
+
+   .container{
+    background-color: white;
+    font-size: initial;
+    color: rgb(31, 14, 14);
+    padding: 80px;
+    margin-top: 0px;
+}
+
+.container h1{
+    background-color: #4aaaa5;
+    font-size: xx-large;
+    color: white;
+    padding: 20px;
+    display: flex;
+    float: left;
+}
+
+.container li{
+    display: inline;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: inline-end;
+    
+}
+.container a{
+    list-style: none;
+    text-decoration: none;
+    color: grey;
+    size: 80px;
+}
+.container-x{
+    box-sizing: content-box;  
+    width: 950px;
+    height: 500px;
+    padding: 30px;  
+    border: 1px solid gray;
+    background-color: white;
+    
+}
+img {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/* resize images */
+.container1 img {
+    width: 100%;
+    height: 20px;
+    
+}
+p{
+    line-height: 150%;
+    size: 90px;
+}
+
+.container-x h2{
+    font-size: xx-large;
+    color: #4aaaa5;
+    padding: 1px;
+}
+
+.container01{
+    background-color: white;
+    font-size: initial;
+    color: rgb(31, 14, 14);
+    padding: 80px;
+}
+
+.container01 h1{
+    background-color: #4aaaa5;
+    font-size: xx-large;
+    color: snow;
+    padding: 20px;
+    display: flex;
+    float: left;
+    margin-left: 0px;
+}
+
+.container01 li{
+    display: inline;
+    font-size: x-large;
+    margin-left: 20px;
+    float: inline-end;
+    
+}
+
+.container01 a{
+    list-style: none;
+    text-decoration: none;
+    color: grey;
+    size: 80px;
+}
+.container02{
+        box-sizing: content-box;  
+        width: 960px;
+        height: 500px;
+        padding: 30px;  
+        border: 10px solid blue;
+        background-color: white;
+        
+}
+.container02 h1{
+    
+    font-size: xx-large;
+    color: #4aaaa5;
+    padding: 20px;
+}
+.form-1 .f-group{
+    padding:20;
+    width: 100%;
+}
+
+.form-1 .f-group{
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.form-1 .f-group label{
+    display: block;
+   
+}
+
+.form-1 d-group input[type="text"], .form-1 textarea{
+    padding: 8px;
+    width: 100%;
+    height: 100px;
+}
+.column-1 {
+    display: flex;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+
+}
+
+.column-2 {
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.clearfix{
+    clear: both;
+}
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 640px) {
+
+}
